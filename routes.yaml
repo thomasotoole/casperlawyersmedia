@@ -1,0 +1,18 @@
+routes:
+
+collections:
+  /compliance/state/:
+    permalink: /compliance/state/{slug}/
+    template: legalsummaries
+    filter: tag:[compliance,state]
+  /compliance/federal/:
+    permalink: /compliance/federal/{slug}/
+    template: legalsummaries
+    filter: tag:[compliance,federal]
+  /:
+    permalink: /{slug}/
+    template: index
+
+taxonomies:
+  tag: /tag/{slug}/
+  author: /author/{slug}/
