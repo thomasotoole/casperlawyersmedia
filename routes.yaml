@@ -3,11 +3,11 @@ routes:
 collections:
   /compliance/state/:
     permalink: /compliance/state/{slug}/
-    template: legalsummaries
+    template: index-lawsummaries
     filter: tag:[compliance,state]
   /compliance/federal/:
     permalink: /compliance/federal/{slug}/
-    template: legalsummaries
+    template: index-lawsummaries
     filter: tag:[compliance,federal]
   /:
     permalink: /{slug}/

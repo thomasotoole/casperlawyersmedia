@@ -2,7 +2,7 @@
     "name": "casper-lawyersmedia",
     "description": "Ghost Casper theme for Lawyers Media website",
     "demo": "https://demo.ghost.io",
-    "version": "0.0.3",
+    "version": "0.0.5",
     "engines": {
         "ghost": ">=5.0.0"
     },
