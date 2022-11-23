@@ -1,6 +1,14 @@
 routes:
 
 collections:
+  /news/:
+    permalink: /news/{slug}/
+    template: index-blogposts
+    filter: tag:[news]
+  /topictips/:
+    permalink: /topictips/{slug}/
+    template: index-topictips
+    filter: tag:[topic-tips]
   /compliance/state/:
     permalink: /compliance/state/{slug}/
     template: index-lawsummaries
